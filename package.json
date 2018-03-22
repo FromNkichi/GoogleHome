@@ -1,0 +1,29 @@
+{
+  "name": "googlehome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FromNkichi/GoogleHome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FromNkichi/GoogleHome/issues"
+  },
+  "homepage": "https://github.com/FromNkichi/GoogleHome#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "castv2-client": "^1.1.2",
+    "express": "^4.14.0",
+    "google-home-notifier": "file:google-home-notifier",
+    "google-tts-api": "^0.0.2",
+    "mdns": "^2.2.3",
+    "ngrok": "^2.2.4",
+    "node-gyp": "^3.6.2"
+  }
+}
